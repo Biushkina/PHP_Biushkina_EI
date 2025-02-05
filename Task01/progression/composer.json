@@ -1,0 +1,24 @@
+{
+    "name": "79297/progression",
+    "autoload": {
+        "psr-4": {
+            "Biushkina\\Progression\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Biushkina",
+            "email": "lena.biushkina@mail.ru"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11"
+    },
+    "scripts": {
+        "phpcs": "vendor/bin/phpcs --standard=PSR12 src/",
+	"phpcbf": "vendor/bin/phpcbf"
+    }
+}
